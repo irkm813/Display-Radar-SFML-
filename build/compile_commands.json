@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/ferenc.szabo/Documents/cpproj/test02/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++20 -o CMakeFiles\\MySFMLProject.dir\\main.cpp.obj -c C:\\Users\\ferenc.szabo\\Documents\\cpproj\\test02\\main.cpp",
+  "file": "C:\\Users\\ferenc.szabo\\Documents\\cpproj\\test02\\main.cpp",
+  "output": "CMakeFiles\\MySFMLProject.dir\\main.cpp.obj"
+}
+]
