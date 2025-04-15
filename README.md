@@ -6,26 +6,26 @@ This is a simple radar visualization system built with C++, SFML, and Boost.Asio
 
 🚀 Features
 
--Reads serial data in real-time (format: angle,distance\n)
--Converts polar coordinates to Cartesian for display
--Visually sweeps and marks detected objects on a radar
--Displays a radar line that follows the scanning angle
--Fades/clears detections after a full sweep (180°)
+- Reads serial data in real-time (format: angle,distance\n)
+- Converts polar coordinates to Cartesian for display
+- Visually sweeps and marks detected objects on a radar
+- Displays a radar line that follows the scanning angle
+- Fades/clears detections after a full sweep (180°)
 
 🧰 Technologies Used
 
--SFML – for 2D graphics and rendering
--Boost.Asio – for serial communication
--Standard C++ STL
+- SFML – for 2D graphics and rendering
+- Boost.Asio – for serial communication
+- Standard C++ STL
 
 🔧 Setup
-Requirements
 
--A working C++ compiler (e.g. g++)
--CMake (recommended)
--SFML library
--Boost library (Asio module)
--A serial device that sends angle,distance\n (e.g., Arduino)
+Requirements:
+- A working C++ compiler (e.g. g++)
+- CMake (recommended)
+- SFML library
+- Boost library (Asio module)
+- A serial device that sends angle,distance\n (e.g., Arduino)
 
 Building
 
@@ -36,9 +36,9 @@ cd build
 cmake ..
 make`
 
-`Alternatively, compile manually:
+Alternatively, compile manually:
 
-g++ main.cpp -o radar -lsfml-graphics -lsfml-window -lsfml-system -lboost_system
+`g++ main.cpp -o radar -lsfml-graphics -lsfml-window -lsfml-system -lboost_system
 
 Run
 
