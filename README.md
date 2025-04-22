@@ -32,8 +32,11 @@ Building
 You can build the project using CMake:
 
 `mkdir build
+
 cd build
+
 cmake ..
+
 make`
 
 Alternatively, compile manually:
